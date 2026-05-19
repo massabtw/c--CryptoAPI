@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/Itens de Solução/" />
+  <Project Path="../c#-end-to-end-crypto/end-to-end-crypto-c#/c#-end-to-end-crypto.csproj" />
+  <Project Path="CryptoAPI/CryptoAPI.csproj" />
+</Solution>
