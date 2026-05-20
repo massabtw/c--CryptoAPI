@@ -20,7 +20,7 @@ O objetivo principal aqui foi utilizar um ecossistema e uma lógica de negócio 
 
 A aplicação disponibiliza as seguintes rotas para você interagir com os dados:
 
-* **`GET /cryptos`**
+* **`GET /crypto`**
   Retorna o último status atualizado de TODAS as criptomoedas que estão no banco de dados.
 
 * **`GET /crypto/{moeda}`**
@@ -28,6 +28,18 @@ A aplicação disponibiliza as seguintes rotas para você interagir com os dados
 
 * **`GET /cryptos/atualizar`**
   É o gatilho principal. Ele vai até a API da CoinGecko, atualiza o banco de dados local com os preços mais recentes e permite que você visualize esses dados novos repetindo o processo nas rotas acima.
+
+## ⚡Functions
+
+Utilizei o Azure Functions para atualizar periodicamente as moedas a cada 5 minutos, priorizando a arquitetura, separação de responsabilidades e respeitando o DRY.
+
+
+
+## 💼 Frameworks utilizados
+
+- Azure Functions
+- ASP.NET
+
 
 ## 🚀 Como executar o projeto
 
